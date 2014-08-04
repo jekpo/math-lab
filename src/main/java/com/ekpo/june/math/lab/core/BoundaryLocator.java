@@ -16,22 +16,6 @@ public interface BoundaryLocator {
      * @param numbers
      * @return
      */
-    public int min(int[] numbers);
-
-    /**
-     * Locates and returns the largest number in an array of numbers
-     *
-     * @param numbers
-     * @return
-     */
-    public int max(int[] numbers);
-
-    /**
-     * Locates and returns the smallest number in an array of numbers
-     *
-     * @param numbers
-     * @return
-     */
     public double min(double[] numbers);
 
     /**
@@ -41,4 +25,12 @@ public interface BoundaryLocator {
      * @return
      */
     public double max(double[] numbers);
+
+    /**
+     * Returns the difference between the minimum and maximum element in the array
+     *
+     * @param numbers
+     * @return
+     */
+    public double range(double[] numbers);
 }

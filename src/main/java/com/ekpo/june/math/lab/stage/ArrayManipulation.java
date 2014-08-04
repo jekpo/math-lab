@@ -21,7 +21,7 @@ public class ArrayManipulation {
         int[] numbers = {10, 20, 30, 40, 50, 60, 70, 80};
 
         // The array.length property tells us how many elements the array contains
-        System.out.println("The are " + numbers.length + " elements in the numbers array");
+        System.out.println("There are " + numbers.length + " elements in the numbers array");
 
         // Now let's loop through all of the elements in the array and print them out
         for (int i=0; i < numbers.length; i++) {
